@@ -8,7 +8,8 @@ import { TodosComponent } from './component/todos/todos.component';
 import { TodoItemComponent } from './component/todo-item/todo-item.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './component/layout/header/header.component';
-import { AddTodoComponent } from './component/add-todo/add-todo.component'
+import { AddTodoComponent } from './component/add-todo/add-todo.component';
+import { AboutComponent } from './component/pages/about/about.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AddTodoComponent } from './component/add-todo/add-todo.component'
     TodosComponent,
     TodoItemComponent,
     HeaderComponent,
-    AddTodoComponent
+    AddTodoComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
